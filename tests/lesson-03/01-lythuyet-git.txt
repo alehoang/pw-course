@@ -1,0 +1,7 @@
+Giải thích các câu lệnh
+
+git commit --amend  -> mở text editor của commit gần nhất rồi tự sửa message
+git commit --amend -m"message" -> sửa lại tên message commit gần nhất
+git restore --staged <file> -> chuyển lại file chỉ định từ vùng staging về working directory
+git reset HEAD~1 -> chuyển các file của commit gần nhất ở repository về working directory
+

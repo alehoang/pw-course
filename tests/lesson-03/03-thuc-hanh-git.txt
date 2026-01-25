@@ -1,0 +1,27 @@
+a. Chạy lệnh: git init
+- Working directory:
+- Staging:
+- Repository:
+
+b. Tạo 3 file: file1.txt, file2.txt, oops/file3.txt
+- Working directory: file1.txt, file2.txt, oops/file3.txt
+- Staging:
+- Repository:
+
+c. Thêm file .gitignore, thêm 2 dòng:
+    i. file1.txt
+    ii. oops/
+
+- Working directory: file2.txt, .gitignore
+- Staging:
+- Repository:
+
+d. Chạy lệnh: git add .
+- Working directory: 
+- Staging: file2.txt, .gitignore
+- Repository:
+
+e. Chạy lệnh: git commit -m"init project"
+- Working directory: 
+- Staging: 
+- Repository: file2.txt, .gitignore
