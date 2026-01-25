@@ -1,4 +1,4 @@
-//1. tinh tong tu 1 den 100
+// 1. tinh tong tu 1 den 100
 console.log('Bai 1: Tinh tong tu 1 den 100');
 
 let total = 0;
@@ -8,16 +8,16 @@ for (let i = 1; i <= 100; i++) {
 
 console.log(total);
 
-//2. In ra bang cuu chuong tu 2 den 9
+// 2. In ra bang cuu chuong tu 2 den 9
 console.log('Bai 2: In ra bang cuu chuong tu 2 den 9');
 
-for (let i = 2; i < 10; i++) {
+for (let i = 2; i <= 9; i++) {
     console.log(`Bang cuu chuong ${i}:`);
     for (let j = 1; j <= 10; j++) {
         console.log(i, 'x', j, '=', i * j);
     }
 }
-//3. tao 1 mang chua cac so le tu 1 den 99
+// 3. tao 1 mang chua cac so le tu 1 den 99
 console.log('Bai 3: Tao 1 mang chua cac so le tu 1 den 99');
 
 const arr = [];
@@ -31,14 +31,14 @@ for (let i = 1; i < 100; i++) {
 }
 console.log(arr);
 
-//4. In ra 10 email dua tren ten nguoi dung va so thu tu
+// 4. In ra 10 email dua tren ten nguoi dung va so thu tu
 console.log('Bai 4: In ra 10 email');
 
 for (let i = 1; i <= 10; i++) {
     console.log(`user${i}@example.com`);
 }
 
-//5. Tinh tong doanh thu 12 thang trong nam
+// 5. Tinh tong doanh thu 12 thang trong nam
 console.log('Bai 4: Tinh tong doanh thu 12 thang trong nam');
 
 const revenue = [

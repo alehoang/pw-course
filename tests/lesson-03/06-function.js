@@ -1,4 +1,4 @@
-//1.Viet ham multiply nhan 2 tham so
+// 1.Viet ham multiply nhan 2 tham so
 console.log('Bai 1: Viet ham multiply')
 function multiply(x, y) {
     const multiply = x * y;
@@ -10,7 +10,7 @@ const product2 = multiply(12, 15);
 console.log(`Tich cua cap gia tri 1 la ${product1}`);
 console.log(`Tich cua cap gia tri 2 la ${product2}`);
 
-//2.Viet ham findMin nhan 3 tham so a, b,c tra ve gia tri nho nhat
+// 2.Viet ham findMin nhan 3 tham so a, b,c tra ve gia tri nho nhat
 console.log('Bai 2: Viet ham findMin')
 function findMin(a, b, c) {
     if (a < b && a < c) {
@@ -25,7 +25,7 @@ function findMin(a, b, c) {
 const getMin = findMin(1, -4, -3);
 console.log(`So nho nhat la ${getMin}`);
 
-//3. Viet ham getTopStudents
+// 3. Viet ham getTopStudents
 console.log('Bai 3: Viet ham getTopStudents')
 
 function getTopStudents(student, threshold) {
@@ -49,7 +49,7 @@ const arrName = [];
 const topList = getTopStudents(student, 8.5);
 console.log(`Top sinh vien : ${topList}`);
 
-//4. Viet ham calculateInterest
+// 4. Viet ham calculateInterest
 console.log('Bai 4: Viet ham calculateInterest')
 
 function calculateInterest(principal, rate, years) {

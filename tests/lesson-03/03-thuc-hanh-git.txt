@@ -2,6 +2,7 @@ a. Chạy lệnh: git init
 - Working directory:
 - Staging:
 - Repository:
+// các file được tạo sau thời điểm chạy lệnh git init sẽ ở ngay vùng working directory
 
 b. Tạo 3 file: file1.txt, file2.txt, oops/file3.txt
 - Working directory: file1.txt, file2.txt, oops/file3.txt
