@@ -25,7 +25,7 @@ const arr = [];
 //     arr.push(i);
 // }                          //hoac cach duoi
 for (let i = 1; i < 100; i++) {
-    if (i % 2 != 0) {
+    if (i % 2 !== 0) {
         arr.push(i);
     }
 }
@@ -56,7 +56,7 @@ const revenue = [
     { "month": 12, "total": -10 }
 ]
 let totalRevenue = 0;
-for (let i = 0; i <= 11; i++) {
-    totalRevenue = totalRevenue + revenue[i].total;
+for (let i = 0; i < revenue.length; i++) {   // fix: 11-> revenue.length
+    totalRevenue += revenue[i].total; //fix: totalRevenue = totalRevenue +...
 }
 console.log(`Tong doanh thu 12 thang trong nam la ${totalRevenue}`);

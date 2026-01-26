@@ -13,16 +13,16 @@ console.log(`Tich cua cap gia tri 2 la ${product2}`);
 // 2.Viet ham findMin nhan 3 tham so a, b,c tra ve gia tri nho nhat
 console.log('Bai 2: Viet ham findMin')
 function findMin(a, b, c) {
-    if (a < b && a < c) {
+    if (a <= b && a <= c) {
         return a;
     }
-    if (b < a && b < c) {
+    if (b <= a && b <= c) {
         return b;
     }
     return c;
 }
 
-const getMin = findMin(1, -4, -3);
+const getMin = findMin(-3, 2, 4);
 console.log(`So nho nhat la ${getMin}`);
 
 // 3. Viet ham getTopStudents

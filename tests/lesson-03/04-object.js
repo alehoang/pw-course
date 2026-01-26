@@ -3,7 +3,7 @@ console.log('Bai 1: Tao object car va in ra nam san xuat');
 
 const car = {
     make: "Toyota",
-    modal: "Corolla",
+    model: "Corolla",
     year: 2021
 }
 console.log(`Nam san xuat: ${car.year}`);
@@ -27,13 +27,13 @@ console.log('Bai 3: Tao object student va truy cap den diem mon toan');
 
 const student = {
     name: "Lan",
-    grade: {
+    grades: {
         math: 8,
         english: 9
     }
 }
 
-console.log(`Diem mon toan: ${student["grade"]["math"]}`);
+console.log(`Diem mon toan: ${student["grades"]["math"]}`);
 
 // 4. Tao object settings. Thay doi volume va in ra object moi
 console.log('Bai 4: Tao object settings. Thay doi volume va in ra object moi');
