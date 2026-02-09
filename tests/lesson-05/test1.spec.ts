@@ -50,7 +50,7 @@ test('Register', async ({ page }) => {
     });
 
     await test.step("Input Biography", async () => {
-        await page.locator('//textarea[@id = "bio"]').fill("This is biography field a");
+        await page.locator('//textarea[@id = "bio"]').fill("This is line 1\nThis is line 2");
     });
 
     await test.step("Input Rate", async () => {

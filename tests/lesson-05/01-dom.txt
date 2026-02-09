@@ -13,6 +13,7 @@
 - <tfoot> phần footer của bảng
 - <tr> tạo hàng
 - <th> tiêu đề
+- <td> tạo ô dữ liệu
 
 mindmup:
 https://drive.google.com/file/d/1VFJaL9jMn9nhRZkK6irlnY1IFNhHPduV/view?usp=drive_link
