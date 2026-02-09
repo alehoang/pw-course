@@ -17,7 +17,7 @@ test('Todo Page', async ({ page }) => {
     });
 
     await test.step("Delete odd tasks", async () => {
-        await page.on('dialog', async dialog => dialog.accept());
+        page.on('dialog', async dialog => dialog.accept());
 
         for (let i = 1; i <= 100; i++) {
             if (i % 2 !== 0) {
